@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-thinkremover"
+description = "NODES: remove think from reasioning llm response."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/lrzjason/Comfyui-ThinkRemover"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "lrzjason"
+DisplayName = "Comfyui-ThinkRemover"
+Icon = ""
