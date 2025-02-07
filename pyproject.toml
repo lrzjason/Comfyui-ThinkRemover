@@ -1,5 +1,5 @@
 [project]
-name = "comfyui-thinkremover"
+name = "thinkremover"
 description = "NODES: remove think from reasioning llm response."
 version = "1.0.0"
 license = {file = "LICENSE"}
