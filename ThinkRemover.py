@@ -29,9 +29,9 @@ class ThinkRemover:
         think_content = text
         think_tag = '</think>'
         # check text contains '</think>'
-        if think_tag in text:
+        if think_tag in text.lower():
             # get index of '</think>'
-            end_index = text.index(think_tag)+len(think_tag)
+            end_index = text.lower().index(think_tag)+len(think_tag)
             think_content = text[:end_index].strip()
             cleared_content = text[end_index+1:].strip()
         
